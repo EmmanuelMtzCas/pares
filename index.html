@@ -1,0 +1,38 @@
+<meta charset="utf-8">
+
+<h1>PARES</h1>
+<script>
+	
+ function saltarLinea() {
+ 	
+   document.write("<br><br><br>");
+
+ }
+
+ function imprimir(frase) {
+ 	
+ 	document.write(frase);
+ 	saltarLinea();
+ }
+
+
+
+var inicio=1;  //inicializamos en 1 , este uno se incrementara
+
+while(inicio<=100){   // en el while establecemos que se pare hasta llegar al numero 100
+
+
+     inicio= inicio+1  // reasignamos el valor inicial de la variable inicio , sumandole 1 , ahora tendria el valor de 2
+
+     imprimir(inicio); // imprimimos su valor actual
+
+     inicio ++;        // incrementamos el valor de inicio ahora seria 3 , cuando vuelva a entrar al while tendra ese valor para despues sumar 1 y sera 4, despues 
+                       // lo imprime y asi hasta llegar a 100
+
+}
+
+
+imprimir("FIN");
+
+
+</script>
